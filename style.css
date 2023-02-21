@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+
+:root{
+    /* Primary Colors */
+    --primary-color-1:hsl(7, 99%, 70%);
+    --primary-color-2:hsl(51, 100%, 49%);
+    --primary-color-3:hsl(167, 40%, 24%);
+    --primary-color-4:hsl(198, 62%, 26%);
+    --primary-color-5:hsl(168, 34%, 41%);
+
+    /* Secondary Colors */
+    --secondary-color-1:hsl(212, 27%, 19%);
+    --secondary-color-2:hsl(213, 9%, 39%) ;
+    --secondary-color-3:hsl(232, 10%, 55%);
+    --secondary-color-4:hsl(210, 4%, 67%);
+    --secondary-color-5:hsl(0, 0%, 100%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 18px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+header {
+    background-image: url(./sunnyside-agency-landing-page-main/images/desktop/image-header.jpg);
+    background-repeat:no;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    padding: 40px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    cursor: pointer;
+}
+
+#nav-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#nav-items a{
+    text-decoration: none;
+    color: var(--secondary-color-5);
+    cursor: pointer;
+}
+#nav-items li{
+    list-style: none;
+    padding-left: 50px;
+}
+#btn{
+    background-color: var(--secondary-color-5);
+    color:var(--primary-color-4) !important;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-family: 'Fraunces', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+#headline{
+    font-family: 'Fraunces', sans-serif;
+    font-size: 28px;
+    padding-top: 150px;
+    text-align: center;
+    color:var(--secondary-color-5);
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
